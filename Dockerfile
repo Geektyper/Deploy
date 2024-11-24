@@ -1,5 +1,5 @@
-ARG GITHUB_USERNAME = ""        # Github Username of Repo Owner.
-ARG GITHUB_REPO_NAME = ""       # Repo Name, Ex: If the URL is https://github.com/username/repo_name, Enter the repo_name.
+ARG GITHUB_USERNAME = "Alpha-Like"        # Github Username of Repo Owner.
+ARG GITHUB_REPO_NAME = "TeraDL"       # Repo Name, Ex: If the URL is https://github.com/username/repo_name, Enter the repo_name.
 ARG GITHUB_ACCESS_TOKEN = ""    # Your Github Access Token.
 
 ARG BUILD_COMMAND = ""          # For Installing Requirements, Ex: pip install -r requirements.txt.
