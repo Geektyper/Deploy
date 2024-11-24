@@ -1,9 +1,9 @@
 ARG GITHUB_USERNAME = "Alpha-Like"        # Github Username of Repo Owner.
 ARG GITHUB_REPO_NAME = "TeraDL"       # Repo Name, Ex: If the URL is https://github.com/username/repo_name, Enter the repo_name.
-ARG GITHUB_ACCESS_TOKEN = ""    # Your Github Access Token.
+ARG GITHUB_ACCESS_TOKEN = ''     # Your Github Access Token.
 
-ARG BUILD_COMMAND = ""          # For Installing Requirements, Ex: pip install -r requirements.txt.
-ARG RUN_COMMAND = ""            # The Main Command, Ex: python3 main.py.
+ARG BUILD_COMMAND = "pip3 install -r requirements.txt"          # For Installing Requirements, Ex: pip install -r requirements.txt.
+ARG RUN_COMMAND = "python3 start.py"            # The Main Command, Ex: python3 main.py.
 
 # ----------------------------------------------------------
 
